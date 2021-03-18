@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.*;
 
 /**
- * GitHub URL: https://github.com/Martin2696/prog2-ss21-exercise1.git
+ * GitHub URL: https://github.com/Martin2696/prog2-ss21-exercise1
  * Test class for testing the gradingStudents method in Result.java
  */
 
