@@ -16,9 +16,6 @@ public class Result {
                 int nextMultiple = 5 - (grades.get(i) % 5) + grades.get(i);
                 if(nextMultiple - grades.get(i) < 3) {
                     studentGrades.add(nextMultiple);
-                } else if (grades.get(i) > 100  || grades.get(i) < 1) {
-                    studentGrades.remove(i);
-                    i--;
                 } else {
                     studentGrades.add(grades.get(i));
                 }
@@ -27,7 +24,7 @@ public class Result {
         return studentGrades;
     }
 
-    /* public static void main(String[] args) {
+    public static void main(String[] args) {
 
         int n;
         Scanner sc = new Scanner(System.in) ;
@@ -49,5 +46,5 @@ public class Result {
             System.out.println(gradingStudents(grades));
         }
         gradingStudents(grades);
-    } */
+    }
 }
